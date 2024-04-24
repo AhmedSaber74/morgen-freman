@@ -1,0 +1,320 @@
+
+
+
+
+
+section {
+
+    display: flex;
+   justify-content: center  ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.card-group
+{
+width: 70%;
+
+}
+
+
+.clear-fix
+{
+
+    clear: both;
+
+}
+
+.background-img
+{
+box-sizing: border-box;
+font-family: sans-serif;
+background-image: url(../imgs/hero-bg.jpg);
+background-position: center center;
+background-size: cover;
+height: 100lvh;
+text-align: center;
+color: #FFFFFF;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+
+
+nav
+{
+
+    display: flex;
+    justify-content: space-around;
+    text-decoration:none;
+    
+
+}
+.card-1
+{
+
+    display: flex;
+    justify-content: space-around;
+   
+}
+.card-1 img
+{
+
+    border: 2px;
+    border-radius: 5px;
+    height: 70% ;
+
+}
+
+.container
+{
+
+    width: 80%;
+    margin: 50px 0px;
+   
+    box-shadow: 2px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ul li
+{
+
+    list-style: none;
+}
+
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: #0078ff;
+}
+
+.inmation
+{
+
+    display: grid;
+    place-items: center;
+    color: rgb(225, 225, 225);
+
+}
+
+.typing
+{
+
+    margin-top: 20px;
+    width: 22ch;
+    animation: typiing 2s steps(20) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    border-right: 2px solid;
+    font-size: 10em;
+    width: 340px;
+
+}
+@keyframes typiing
+{
+
+    from{
+        width: 0;
+    }
+
+}
+@keyframes blink{
+
+    50%{
+        border-color: transparent;
+    }
+}
+
+.dinamic-text
+{
+    height: 50px;
+}
+
+.dinamic-text li
+{
+
+    list-style: none;
+    font-size:50px;
+    color: #FFFFFF;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation:  slider 8s steps(4) infinite;
+
+}
+
+.dinamic-text li span
+{
+
+    position: relative;
+    line-height: 90px;
+
+}
+
+@keyframes slider{
+
+    100%{
+        
+        top: -380px;
+    }
+
+}
+.card-title a
+{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.card-title a:hover
+{
+
+    color:#63C3FF ;
+    transition: 0.5s;
+}
+.card-footer a
+{
+
+    text-decoration: none;
+    color: black;
+
+}
+form button :hover
+{
+    background-color: #63C3FF;
+}
+.blog-card .card-category {
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px 5px;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+.blog-card .card-category .category {
+    color: #fff;
+    display: inline-block;
+    font-size: 0.7rem;
+    letter-spacing: 0.1px;
+    margin-bottom: 0;
+}
+
+.blog-card .card-category-box {
+    position: absolute;
+    text-align: center;
+    top: 220px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+
+}
+.circle-i 
+{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+}
+
+.I .circle-i 
+{
+    transition: all 1s ;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.circle-icone 
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10;
+    text-align: center;
+    box-shadow: 0 0 0 3px #0078ff;
+}
+
+.circle-num-i 
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin:  auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+}
+
+
+.portfolio-card 
+{
+overflow: hidden;
+}
+
+
+.portfolio-card img
+{
+    transition: all 1s;
+}
+
+.portfolio-card img:hover
+{
+   
+    scale: 1.5;
+
+}
+.hid
+{
+    overflow: hidden;
+}
+
+.w-10{
+
+    width: 10%;
+}
+
+.card:hover .circle-i
+{
+background-color: #0078ff;
+box-shadow: 0 0 0 10px #63C3FF;
+}
+ .foter-i li:hover .circle-icone 
+{
+    
+background-color: #0078ff;
+box-shadow: 0 0 0 4px #63C3FF;
+}
+.circle-icone
+{
+    transition: all 1s;
+}
+
+.circle-icone a
+{
+
+    color: black;
+
+}
+button
+{
+    transition: all 1s;
+}
+
+
